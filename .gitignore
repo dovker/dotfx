@@ -1,11 +1,59 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+Build/premake5/.DS_Store
+Clap/src/Platform/.DS_Store
+Clap/src/.DS_Store
+Clap/.DS_Store
+Clap/src/UI/.DS_Store
+Build/.DS_Store
+.DS_Store
+*.xcworkspacedata
+*.pyc
+*.plist
+*.xcuserstate
+Clap/Makefile
 Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
+
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
+**/.cmake/
+**/.vscode/
+Build/compile_commands.json.tmp11097
+Build/
